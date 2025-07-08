@@ -1,0 +1,5 @@
+pandas
+scikit-learn
+joblib
+boto3
+numpy<2.0.0
