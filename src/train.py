@@ -1,14 +1,17 @@
 # src/train.py
 
 import pandas as pd
+import os
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from sklearn.preprocessing import LabelEncoder
 
-# Load dataset
-df = pd.read_csv("data/titanic.csv")
+# SageMaker training data path
+input_path = os.path.join('/opt/ml/input/data/train', 'titanic.csv')
+
+df = pd.read_csv(input_path)
 
 # Encode target variable
 df["Survived"] = df["Survived"].map({"Yes": 1, "No": 0})
