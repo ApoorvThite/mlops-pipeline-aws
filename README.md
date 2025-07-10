@@ -37,3 +37,6 @@ We build a binary classification model using Scikit-learn to solve a supervised 
 | Infrastructure | `AWS S3`, `IAM`, `SageMaker`, `CloudWatch`    |
 
 ---
+
+## 📁 Project Structure
+
