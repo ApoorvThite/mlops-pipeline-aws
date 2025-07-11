@@ -77,5 +77,12 @@ pip install -r requirements.txt
 python sagemaker_train_deploy.py
 ```
 
+4. 🌐 Deploy Endpoint
+
+Edit sagemaker_deploy_endpoint.py and set:
+
+```bash
+python sagemaker_deploy_endpoint.py
+```
 
 
