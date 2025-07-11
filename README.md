@@ -69,14 +69,12 @@ mlops-pipeline-aws/
 
 ```bash
 pip install -r requirements.txt
-
 ```
 
 3. 🚂 Start Training
 
-```
+```bash
 python sagemaker_train_deploy.py
-
 ```
 
 
