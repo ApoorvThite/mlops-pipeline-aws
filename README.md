@@ -40,3 +40,44 @@ We build a binary classification model using Scikit-learn to solve a supervised 
 
 ## 📁 Project Structure
 
+```
+mlops-pipeline-aws/
+│
+├── data/
+│ └── titanic.csv # Sample dataset
+├── train.py # Local training script
+├── sagemaker_train_deploy.py # Launch training job on SageMaker
+├── sagemaker_deploy_endpoint.py # Deploy trained model to SageMaker endpoint
+├── sagemaker_monitor.py (WIP) # Model monitoring script
+├── requirements.txt # Dependencies
+└── README.md # Project overview and instructions
+
+```
+
+---
+
+## 🔧 How to Run
+
+### 1. 🔑 Prerequisites
+
+- AWS Account with SageMaker, S3, and IAM permissions
+- S3 bucket created (e.g., `apoorvawsbucket321`)
+- AWS CLI configured locally (`aws configure`)
+- Python 3.8+ with `boto3`, `sagemaker`, `joblib`
+
+### 2. 📦 Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+```
+
+3. 🚂 Start Training
+
+```
+python sagemaker_train_deploy.py
+
+```
+
+
+
