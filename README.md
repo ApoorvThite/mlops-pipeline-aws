@@ -88,14 +88,17 @@ python sagemaker_deploy_endpoint.py
 5. 🛡️ (Optional) Enable Monitoring
 COMING SOON: sagemaker_monitor.py to activate Model Monitor.
 
+---
 
-✅ Results
+## ✅ Results
+
 The trained model achieved:
 
-Accuracy: ~76%
+- **Accuracy:** ~76%
+- **F1-Score:** 0.75 (macro average)
+- **Model File:** `model.joblib` (saved locally and uploaded to S3)
+- **Deployed Endpoint:** Successfully created on AWS SageMaker and ready for inference via REST API
 
-F1-Score: 0.75 (macro avg)
+---
 
-Model stored in: model.joblib and uploaded to S3
 
-Endpoint: Created and ready for inference via REST API
