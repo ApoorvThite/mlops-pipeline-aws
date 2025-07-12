@@ -101,4 +101,10 @@ The trained model achieved:
 
 ---
 
+## 📈 What's Next
+
+- ✅ **Integrate Model Monitor** for real-time drift detection  
+- ✅ **Set up GitHub Actions** for full CI/CD automation  
+- ⏳ **Add real-time prediction script** to send requests to the endpoint  
+- ⏳ **Create a Streamlit UI** for easy user interaction  
 
