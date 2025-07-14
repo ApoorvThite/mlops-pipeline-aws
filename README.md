@@ -18,7 +18,7 @@ This project sets up a fully automated MLOps pipeline using:
 
 ## 🧠 Problem Statement
 
-We build a binary classification model using Scikit-learn to solve a supervised ML task, and:
+I built a binary classification model using Scikit-learn to solve a supervised ML task, and:
 
 1. Train the model via **SageMaker training jobs**
 2. Automatically deploy the model to an endpoint
