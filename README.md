@@ -1,4 +1,4 @@
-# 🔁 Automated MLOps Pipeline on AWS
+# Automated MLOps Pipeline on AWS
 
 An end-to-end MLOps pipeline that trains, deploys, and monitors a machine learning model using AWS SageMaker. This project demonstrates best practices in CI/CD for ML systems, leveraging the power of automation for robust model management in production environments.
 
