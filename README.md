@@ -85,9 +85,6 @@ Edit sagemaker_deploy_endpoint.py and set:
 python sagemaker_deploy_endpoint.py
 ```
 
-5. 🛡️ (Optional) Enable Monitoring
-COMING SOON: sagemaker_monitor.py to activate Model Monitor.
-
 ---
 
 ## ✅ Results
