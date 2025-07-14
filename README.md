@@ -105,3 +105,11 @@ The trained model achieved:
 - ⏳ **Add real-time prediction script** to send requests to the endpoint  
 - ⏳ **Create a Streamlit UI** for easy user interaction  
 
+
+Let me know if you'd like me to add:
+- Diagrams (architecture/CI flow)
+- Badges (e.g. deployment status)
+- GitHub Actions workflow YAML
+- Live demo links
+
+I'm happy to help polish the final version!
