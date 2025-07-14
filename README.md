@@ -91,7 +91,7 @@ python sagemaker_deploy_endpoint.py
 
 The trained model achieved:
 
-- **Accuracy:** ~76%
+- **Accuracy:** ~76% (on the model that was used)
 - **F1-Score:** 0.75 (macro average)
 - **Model File:** `model.joblib` (saved locally and uploaded to S3)
 - **Deployed Endpoint:** Successfully created on AWS SageMaker and ready for inference via REST API
