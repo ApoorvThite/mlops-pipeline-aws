@@ -6,15 +6,15 @@ import pandas as pd
 
 def model_fn(model_dir):
     """Load model from model_dir (SageMaker format)"""
-    model_path = os.path.join(model_dir, "model.joblib")
-    model = joblib.load(model_path)
-    return model
+    model_file_path = os.path.join(model_dir, "model.joblib")
+    loaded_model = joblib.load(model_file_path)
+    return loaded_model
 
 def input_fn(request_body, content_type='application/json'):
     """Parse input JSON to pandas DataFrame"""
     if content_type == 'application/json':
-        df = pd.read_json(request_body, orient='records')
-        return df
+        input_dataframe = pd.read_json(request_body, orient='records')
+        return input_dataframe
     raise ValueError("Unsupported content type: {}".format(content_type))
 
 def predict_fn(input_data, model):
